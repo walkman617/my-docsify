@@ -11,4 +11,4 @@
 - Multiple themes
 
 [GitHub](https://github.com/walkman617/Flutter2)
-[Get Started](#Flutter跨平台应用开发技术)
+[Get Started](#Flutter)
