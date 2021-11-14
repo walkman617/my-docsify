@@ -6,9 +6,6 @@
 
 > 2021年Google谷歌中国教育合作培训项目
 
-- [Flutter](https://flutter.dev/) is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
-- No statically built html files
-- Multiple themes
 
 [GitHub](https://github.com/walkman617/Flutter2)
 [Get Started](#Flutter)

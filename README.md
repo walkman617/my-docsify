@@ -1,14 +1,26 @@
 # Flutter
+
 ![logo](flutter-lockup.png)
 
+
+[Flutter](https://flutter.dev/) is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+
+
+
 # Lecture
-[Github](https://github.com/walkman617/Flutter2)
+- [Contents](https://f.nkugame.com/#/lecture)
+
+- [Slides](https://github.com/walkman617/Flutter2/tree/main/Lecture)
+
+- [Handout](https://github.com/walkman617/Flutter2/tree/main/Handout)
 
 # Practice
-[Github](https://github.com/walkman617/Flutter2)
+- [Contents](https://f.nkugame.com/#/practice)
+
+- [Handout](https://github.com/walkman617/Flutter2/tree/main/Practice)
 
 # ShowCase
-[Github](https://github.com/walkman617/Flutter2)
+- [Contents](https://f.nkugame.com/#/showcase)
 
 
 # Resources
