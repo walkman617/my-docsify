@@ -1,14 +1,14 @@
 <!-- _coverpage.md -->
 
-![logo](icon.svg)
+![logo](flutter.png)
 
-# docsify <small>4.12.1</small>
+# 基于Flutter的跨平台应用开发技术与实战
 
-> A magical documentation site generator.
+> 2021年Google谷歌中国教育合作培训项目
 
 - Simple and lightweight
 - No statically built html files
 - Multiple themes
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](https://github.com/walkman617/Flutter2)
 [Get Started](#headline)
