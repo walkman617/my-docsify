@@ -7,23 +7,23 @@
 
 
 
-# Lecture
+# 理论
 - [Contents](https://f.nkugame.com/#/lecture)
 
 - [Slides](https://github.com/walkman617/Flutter2/tree/main/Lecture)
 
 - [Handout](https://github.com/walkman617/Flutter2/tree/main/Handout)
 
-# Practice
+# 实践
 - [Contents](https://f.nkugame.com/#/practice)
 
 - [Handout](https://github.com/walkman617/Flutter2/tree/main/Practice)
 
-# ShowCase
+# 案例
 - [Contents](https://f.nkugame.com/#/showcase)
 
 
-# Resources
+# 资源
 > Online Course：[The Complete Flutter Development Bootcamp Using Dart](https://www.appbrewery.co/p/flutter-development-bootcamp-with-dart)
 
 > Codelabs：If you have trouble viewing any of the codelabs on [codelabs.developers.google.com](codelabs.developers.google.com), try [this mirror of the Flutter codelabs](https://codelabs.flutter-io.cn/).
