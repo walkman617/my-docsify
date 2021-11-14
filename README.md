@@ -20,8 +20,11 @@
 - [Handout](https://github.com/walkman617/Flutter2/tree/main/Practice)
 
 # 案例
-- [Contents](https://f.nkugame.com/#/showcase)
-
+- [Showcase](https://f.nkugame.com/#/showcase)
+- [Counter](https://f.nkugame.com/#/showcase)
+- [DisplayBoard](https://f.nkugame.com/#/showcase)
+- [Form](https://f.nkugame.com/#/showcase)
+- [Notepad](https://f.nkugame.com/#/showcase)
 
 # 资源
 > Online Course：[The Complete Flutter Development Bootcamp Using Dart](https://www.appbrewery.co/p/flutter-development-bootcamp-with-dart)

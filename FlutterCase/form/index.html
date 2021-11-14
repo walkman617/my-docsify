@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Roboto" rel="stylesheet">
+<meta name="viewport" content="width=700"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="toc">
+	<ul>
+		<li><a href="#initial">初始化应用</a></li>
+		<li><a href="#tag">添加两个标签页</a></li>
+		<li>
+			<a href="#info">设置用户信息填写表单</a>
+      <ul>
+        <li><a href="#name">添加姓名输入框</a></li>
+        <li><a href="#phone">添加电话号码输入框</a></li>
+        <li><a href="#address">添加地址输入框</a></li>
+      </ul>
+		</li>
+    <li>
+      <a href="#setting">设置系统设置标签页</a>
+      <ul>
+        <li><a href="#notification">添加通知开关</a></li>
+        <li><a href="#volume">添加音量调节</a></li>
+        <li><a href="#permission">添加权限开关</a></li>
+        <li><a href="#pattern">添加模式选择</a></li>
+      </ul>
+    </li>
+	</ul>
+  <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+  </svg>
+</nav>
+
+<article class="contents">
+  <section>
+    <div id="initial">
+      <h2>初始化应用</h2>
+      <p>
+        创建一个简单的、基于模板的 Flutter 工程，将项目命名为 form ，接下来你将会修改这个工程来完成最终的 App。
+      </p>
+      <p>
+        在这个步骤中，你将主要编辑 Dart 代码所在的 lib/main.dart 文件：
+      </p>
+      <p>
+        删除 lib/main.dart 中的所有代码，然后替换为下面的代码，运行代码将显示一个标题为 Form 的空白页面。
+      </p>
+      <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+import 'package:flutter/material.dart';
+void main() => runApp(MyApp());
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: FormPage(),
+    );
+  }
+}
+
+class FormPage extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() => FormState();
+}
+
+class FormState extends State<FormPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Form"),
+      ),
+    );
+  }
+}
+      </pre></code>
+    </div>
+  </section>
+
+  <section>
+    <div id="tag">
+      <h2>添加两个标签页</h2>
+      <p>
+        在这一步中，将在页面中添加一个包含两个标签的标签栏，以便于在接下来的步骤中，在第一个标签页中布置用户信息表单，在第二个标签页中布置系统设置控件。
+      </p>
+      <p>
+        将页面修改为 DefaultTabController 组件，修改 FormState 类中的 build 函数：
+      </p>
+      <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+class FormState extends State<FormPage> {
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      initialIndex: 0,
+      length: 2,
+      child: Scaffold(
+        appBar: AppBar(
+          title: const Text('TabBar Widget'),
+          bottom: const TabBar(
+            tabs: <Widget>[
+              Tab(
+                child: Icon(
+                  Icons.face,
+                  color: Colors.white,
+                ),
+              ),
+              Tab(
+                child: Icon(
+                  Icons.settings,
+                  color: Colors.white,
+                ),
+              ),
+            ],
+          ),
+        ),
+        body: TabBarView(
+          children: <Widget>[
+            SingleChildScrollView(
+              padding: EdgeInsets.all(10),
+              child: Text("Information"),
+            ),
+            SingleChildScrollView(
+              padding: EdgeInsets.all(10),
+              child: Text("Setting"),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+      </pre></code>
+    </div>
+  </section>
+
+  <section>
+    <div id="info">
+      <h2>设置用户信息填写表单</h2>
+      <p>
+        在这一步中，将在第一个标签页面中添加文本框和下拉选择栏，以输入用户信息。
+      </p>
+      <div id="name">
+        <h3>添加姓名输入框</h3>
+        <p>
+          在第一个标签页中添加 TextField 组件，修改 FormState 类中的 build 函数：  
+        </p>
+        <img class="developer-image" src="assets/name.png">
+      </div>
+      <div id="phone">
+        <h3>添加电话号码输入框</h3>
+        <p>
+          设置号码类型变量，在 FormState 类中设置变量 _phone_type ：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+String _phone_type = "mobile";
+        </pre></code>
+        <p>
+          添加电话号码输入框和号码类型选择框，修改 FormState 类中的 build 函数，在填写姓名的 TextField 组件之后顺序添加一个用于分割的 Divider 组件和一个用于填写电话号码的 Row 组件：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+Divider(
+  height: 10,
+  color: Colors.white,
+),
+Row(
+  children: <Widget>[
+    Expanded(
+      flex: 6,
+      child: TextField(
+        decoration: InputDecoration(
+          border: OutlineInputBorder(),
+          labelText: "Phone number"
+        ),
+      ),
+    ),
+    Spacer(),
+    Expanded(
+      flex: 3,
+      child: DropdownButton<String>(
+        value: _phone_type,
+        onChanged: (String? value) {
+          setState(() {
+            _phone_type = value.toString();
+          });
+        },
+        items: <DropdownMenuItem<String>>[
+          DropdownMenuItem(
+            value: "mobile",
+            child: Text("mobile"),
+          ),
+          DropdownMenuItem(
+            value: "home",
+            child: Text("home"),
+          ),
+          DropdownMenuItem(
+            value: "work",
+            child: Text("work"),
+          ),
+        ],
+      ),
+    )
+  ],
+),
+        </pre></code>
+      </div>
+      <div id="address">
+        <h3>添加地址输入框</h3>
+        <p>
+          添加一个多行文本框，用来输入地址信息，修改 FormState 类中的 build 函数，在填写电话号码的 Row 组件之后顺序添加一个用于分割的 Divider 组件和一个用于填写地址的 TextField 组件：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+Divider(
+  height: 10,
+  color: Colors.white,
+),
+TextField(
+  maxLines: 5,
+  decoration: InputDecoration(
+  border: OutlineInputBorder(),
+  labelText: "Address",
+  ),
+)
+        </pre></code>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="setting">
+      <h2>设置系统设置标签页</h2>
+      <p>
+        在这一步中，将在第二个标签页面中添加开关、复选框等控件，以完成系统设置。
+      </p>
+      <div id="notification">
+        <h3>添加通知开关</h3>
+        <p>
+          设置通知状态变量，在 FormState 类中设置变量 _notification ：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+bool _notification = false;
+        </pre></code>
+        <p>
+          在第二个标签页中添加通知开关行，包含一个 Switch 组件，修改 FormState 类中的 build 函数：
+        </p>
+        <img class="developer-image" src="assets\notification.png">
+      </div>
+      <div id="volume">
+        <h3>添加音量调节</h3>
+        <p>
+          设置音量变量，在 FormState 类中设置变量 _volume ：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+double _volume = 50;
+        </pre></code>
+        <p>
+          添加音量控制组件 Slider ，修改 FormState 类中的 build 函数，在通知开关组件 ListTile 之后添加组件：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+ListTile(
+  title: Text("Volume"),
+  subtitle: Slider(
+    value: _volume,
+    min: 0,
+    max: 100,
+    divisions: 20,
+    label: _volume.round().toString(),
+    onChanged: (double value) {
+      setState(() {
+        _volume = value;
+      });
+    },
+  ),
+),
+        </pre></code>
+      </div>
+      <div id="permission">
+        <h3>添加权限开关</h3>
+        <p>
+          分别设置存储、位置权限的变量，在 FormState 类中设置变量 _storage 和变量 _location ：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+bool _storage = true, _location = false;
+        </pre></code>
+        <p>
+          添加权限复选组件 Checkbox ，修改 FormState 类中的 build 函数，在音量组件 ListTile 之后添加组件：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+ListTile(
+  title: Text("Permission"),
+  subtitle: Column(
+    children: <Widget>[
+      ListTile(
+        title: Text("Storage"),
+        leading: Checkbox(
+          value: _storage,
+          onChanged: (bool? value) {
+            setState(() {
+              _storage = value as bool;
+            });
+          }
+        )
+      ),
+      ListTile(
+        title: Text("Location"),
+        leading: Checkbox(
+          value: _location,
+          onChanged: (bool? value) {
+            setState(() {
+              _location = value as bool;
+            });
+          }
+        )
+      )
+    ],
+  ),
+),
+        </pre></code>
+      </div>
+      <div id="pattern">
+        <h3>添加模式选择</h3>
+        <p>
+          设置模式枚举类型，在全局添加枚举类型变量 Pattern ：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+enum Pattern { easy, hard }
+        </pre></code>
+        <p>
+          设置模式控制变量，在 FormState 类中设置变量 _pattern ：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+Pattern _pattern = Pattern.easy;
+        </pre></code>
+        <p>
+          添加模式单选组件 Radio ，修改 FormState 类中的 build 函数，在权限组件 ListTile 之后添加组件：
+        </p>
+        <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+ListTile(
+  title: Text("Pattern"),
+  subtitle: Column(
+    children: <Widget>[
+      ListTile(
+        title: Text("Easy"),
+        leading: Radio<Pattern>(
+          value: Pattern.easy,
+          groupValue: _pattern,
+          onChanged: (Pattern? value) {
+            setState(() {
+              _pattern = value as Pattern;
+            });
+          },
+        ),
+      ),
+      ListTile(
+        title: Text("Hard"),
+        leading: Radio<Pattern>(
+          value: Pattern.hard,
+          groupValue: _pattern,
+          onChanged: (Pattern? value) {
+            setState(() {
+              _pattern = value as Pattern;
+            });
+          },
+        ),
+      )
+    ],
+  ),
+),
+        </pre></code>
+      </div>
+    </div>
+  </section>
+</article>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

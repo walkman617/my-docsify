@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Progress Nav</title>
+  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Roboto" rel="stylesheet">
+<meta name="viewport" content="width=700"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="toc">
+	<ul>
+		<li><a href="#initial">初始化应用</a></li>
+		<li>
+			<a href="#layout">设置页面布局</a>
+			<ul>
+				<li><a href="#number">数字</a></li>
+				<li><a href="#button">按钮</a></li>
+        <li><a href="#center">居中布局</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#action">实现相应功能</a>
+      <ul>
+        <li><a href="#plus">数字加一</a></li>
+        <li><a href="#minus">数字减一</a></li>
+        <li><a href="#zero">数字归零</a></li>
+      </ul>
+		</li>
+	</ul>
+  <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+  </svg>
+</nav>
+
+<article class="contents">
+  <section id="initial">
+    <h2>初始化应用</h2>
+    <p>
+      创建一个简单的、基于模板的 Flutter 工程，将项目命名为 counter，接下来你将会修改这个工程来完成最终的 App。
+    </p>
+    <p>
+      在这个步骤中，你将主要编辑 Dart 代码所在的 lib/main.dart 文件：
+    </p>
+    <p>
+      删除 lib/main.dart 中的所有代码，然后替换为下面的代码，运行代码将显示一个标题为 Counter 的空白页面。
+    </p>
+    <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Welcome to Flutter',
+      home: CounterPage(),
+    );
+  }
+}
+
+class CounterPage extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() => CounterState();
+}
+
+class CounterState extends State<CounterPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Counter"),
+      ),
+    );
+  }
+}
+    </code></pre>
+	</section>
+
+	<section>
+		<div id="layout">
+			<h2>设置页面布局</h2>
+      <p>
+        这一步中，将在页面中添加一个用于显示数字的文本框，和三个 Button 组件。
+      </p>
+
+		<div id="number">
+			<h3>数字</h3>
+			<p>
+				为页面添加一个显示数字的文本框，修改 CounterState 类中的 build 方法：
+			</p>
+      <img class="developer-image" src="assets\number_show.png">
+		</div>
+
+		<div id="button">
+			<h3>按钮</h3>
+			<p>
+				在文本框下方添加水平对齐并均匀分布的三个按钮，分别显示 “+1”，“Zero”，“-1”，修改 CounterState 类中的 build 方法：
+			</p>
+      <img class="developer-image" src="assets\button_show.png">
+		</div>
+    
+    <div id="center">
+			<h3>居中布局</h3>
+			<p>
+				调整页面布局，使文本框居中显示，修改 CounterState 类中的 build 方法：
+			</p>
+      <img class="developer-image" src="assets\layout_center.png">
+		</div>
+
+	</section>
+
+	<section>
+    <div id="action">
+      <h2>实现相应功能</h2>
+      <p>
+        在这一步，将为三个按钮分别添加相应的功能，以改变文本框中的显示的数字。
+      </p>
+    </div>
+    <div id="plus">
+      <h3>数字加一</h3>
+      <p>
+        在 CounterState 类中设置变量 _count ：
+      </p>
+      <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+  int _count = 0;
+      </code></pre>
+      <p>
+        将变量 _count 关联到显示的数字：
+      </p>
+      <img class="developer-image" src="assets\number_link.png">
+      <p>
+        在 CounterState 类中构造函数 _countplus ：
+      </p>
+      <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+  void _countplus() {
+    setState(() {
+      _count++;
+    });
+  }
+      </code></pre>
+      <p>
+        将函数 _countplus 对应到 "+1" 按钮，修改 CounterState 类中的 build 方法：
+      </p>
+      <img class="developer-image" src="assets\action_plus.png">
+    </div>
+    
+    <div id="minus">
+      <h3>数字减一</h3>
+      <p>
+        在 CounterState 类中构造函数 _countminus ：
+      </p>
+      <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+  void _countminus() {
+    setState(() {
+      _count--;
+    });
+  }
+      </code></pre>
+      <p>
+        将函数 _countminus 对应到 "-1" 按钮，修改 CounterState 类中的 build 方法：
+      </p>
+      <img class="developer-image" src="assets\action_minus.png">
+    </div>
+  
+    <div id="zero">
+		<h3>数字归零</h3>
+		  <p>
+        在 CounterState 类中构造函数 _countzero ：
+      </p>
+      <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
+  void _countzero() {
+    setState(() {
+      _count = 0;
+    });Z
+  }
+      </code></pre>
+      <p>
+        将函数 _countzero 对应到 "Zero" 按钮，修改 CounterState 类中的 build 方法：
+      </p>
+      <img class="developer-image" src="assets\action_zero.png">
+  </div>
+  
+  <p>
+    运行代码，点击按钮进行相应操作，计数器构造完成。
+  </p>
+
+	</section>
+</article>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
