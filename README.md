@@ -5,6 +5,7 @@
 
 [Flutter](https://flutter.dev/) is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
 
+[Flutter](https://flutter.cn/) 为应用开发带来了革新： 只要一套代码库，即可构建、测试和发布适用于移动、Web、桌面和嵌入式平台的精美应用。
 
 
 # 理论
