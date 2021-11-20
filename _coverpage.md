@@ -7,5 +7,5 @@
 > 2021年Google谷歌中国教育合作培训项目
 
 
-[GitHub](https://github.com/walkman617/Flutter2)
-[Get Started](#Flutter)
+[资料下载](https://share.weiyun.com/gTshZiyH)
+[进入课程](#Flutter)
