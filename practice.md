@@ -4,13 +4,13 @@
 
 Create a simple mobile app that generates proposed names for a startup company. In part one, you’ll use a package that returns pairs of words at random and inserts them into an infinite scrolling list. You can also find this [codelab on flutter.dev](https://flutter.dev/docs/get-started/codelab).
 
-- Project name: startup_namer
+- 源码: [startup_namer: step1~step4](https://github.com/walkman617/Flutter2/tree/main/SourceCode/startup_namer)
 
 ## Practice 02: [Write Your First Flutter App, part 2](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2#0))
 
 Create a simple mobile app that generates proposed names for a startup company. In part two, you’ll extend the example from part 1 to allow the user to select favorite word pairs, and add a second “Saved Favorites” page where users can view the selected names. Finally, you’ll change the app’s theme color.
 
-- Project name: startup_namer2
+- 源码: [startup_namer: step5~step8](https://github.com/walkman617/Flutter2/tree/main/SourceCode/startup_namer)
 
 ## Practice 03: [Building layouts](https://flutter.dev/docs/development/ui/layout/tutorial)
 
