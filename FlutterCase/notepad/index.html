@@ -306,7 +306,207 @@ void dispose() {
         <p>
           分别将两个文本框控制柄绑定到两个文本框，修改 DetailState 类中的 builde 函数：
         </p>
-        <img class="developer-image" src="assets/text-control.png">
+        <div class="file-wrapper">
+          <div class="file-header">
+            <span class="file-name-warpper">
+              <span class="file-name">notepad/lib/main.dart</span>
+            </span>
+          </div>
+          <div class="file-diff">
+            <div class="code-wrapper">
+              <table class="diff-table">
+                <tbody class="diff-tbody">
+                  <tr>
+                    <td class="code-linenumber info"></td>
+                    <td class="info">
+                      <div class="code-line">@@ -93,17 +113,56 @@ class DetailPage extends StatefulWidget {</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">104</div>
+                      <div class="line-num2">162</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">        child: Column(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">105</div>
+                      <div class="line-num2">163</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">          children: <Widget>[</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">106</div>
+                      <div class="line-num2">164</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">            TextField(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">165</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">              controller: _title_controller,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">107</div>
+                      <div class="line-num2">166</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">              decoration: InputDecoration(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">108</div>
+                      <div class="line-num2">167</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                labelText: "Title",</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">109</div>
+                      <div class="line-num2">168</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                border: OutlineInputBorder(),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">...</div>
+                      <div class="line-num2">...</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">...</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">116</div>
+                      <div class="line-num2">175</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">              child: TextField(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">117</div>
+                      <div class="line-num2">176</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                maxLength: 500,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">118</div>
+                      <div class="line-num2">177</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                maxLines: 15,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">178</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                controller: _description_controller,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">119</div>
+                      <div class="line-num2">179</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                decoration: InputDecoration(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">120</div>
+                      <div class="line-num2">180</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                  labelText: "Description",</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">121</div>
+                      <div class="line-num2">181</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                  border: OutlineInputBorder(),</span>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
         <p>
           使用主页面的传参初始化新页面，修改 DetailState 类中的 build 函数，在函数中定义以下变量：
         </p>

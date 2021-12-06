@@ -55,7 +55,7 @@
     <p>
       删除 lib/main.dart 中的所有代码，然后替换为下面的代码，运行代码将显示一个标题为 Displayboard 的空白页面。
     </p>
-    <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">.upside-down {
+    <pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -117,9 +117,6 @@ final List<String> _content = [
 			<h3>以列表形式展示文本</h3>
 			<p>
 				构建一个列表组件，在 DisplayState 类中定义函数 displaylist ，返回一个 ListView 组件：
-			</p>
-			<p>
-				Here's an example that defines an "upside-down" class using custom CSS and applies it to a text block.
 			</p>
 			<pre class="code-block" data-highlight-theme="github-gist"><code class="hljs css">
 Widget displaylist() {
@@ -201,7 +198,459 @@ int _display_state = 0;
         <p>
           在页面的上方添加两个按钮，修改 DisplayState 类的 build 函数：
         </p>
-        <img class="developer-image" src="assets/display-button.png">
+        <div class="file-wrapper">
+          <div class="file-header">
+            <span class="file-name-warpper">
+              <span class="file-name">displayboard/lib/main.dart </span>
+            </span>
+          </div>
+          <div class="file-diff">
+            <div class="code-wrapper">
+              <table class="diff-table">
+                <tbody class="diff-tbody">
+                  <tr>
+                    <td class="code-linenumber info"></td>
+                    <td class="info">
+                      <div class="code-line">@@ -26,14 +26,44 @@ class DisplayState extends State<DisplayPage> {</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">33</div>
+                      <div class="line-num2">34</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">      appBar: AppBar(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">34</div>
+                      <div class="line-num2">35</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">        title: const Text("DisplayBoard"),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">35</div>
+                      <div class="line-num2">36</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">      ),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber del change">
+                      <div class="line-num1">36</div>
+                      <div class="line-num2"></div>
+                    </td>
+                    <td class="del change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">-</span>
+                        <span class="code-line-ctn">      body: displaylist(),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">37</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">      body: Column(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">38</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">        children: <Widget>[</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">39</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">          Container(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">40</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">            padding: const EdgeInsets.all(8),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">41</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">            child: Row(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">42</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">              mainAxisAlignment: MainAxisAlignment.end,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">43</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">              children: <Widget>[</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">44</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                TextButton(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">45</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                  child: const Text("List"),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">46</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                  onPressed: null,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">47</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                ),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">48</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                const SizedBox(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">49</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                  width: 1,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">50</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                  height: 15,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">51</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                  child: DecoratedBox(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">52</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                    decoration: BoxDecoration(color: Colors.grey),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">53</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                  ),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">54</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                ),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">55</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                TextButton(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">56</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                  child: const Text("Grid"),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">57</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                  onPressed: null, </span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">58</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                ),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">59</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">              ],</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">60</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">            ),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">61</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">          ),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">62</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">          _display_state == 0</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">63</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">            ? Flexible(child: displaylist())</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">64</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">            : Flexible(child: displaygrid()),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">65</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">        ],</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">66</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">      )</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">37</div>
+                      <div class="line-num2">67</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">    );</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">38</div>
+                      <div class="line-num2">68</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">  }</span>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="layout-action">
@@ -225,7 +674,219 @@ void _to_grid_state() {
         <p>
           将函数分别绑定到对应的按钮，修改 DisplayState类中的 build 函数：
         </p>
-        <img class="developer-image" src="assets/display-action.png">
+        <div class="file-wrapper">
+          <div class="file-header">
+            <span class="file-name-warpper">
+              <span class="file-name">displayboard/lib/main.dart</span>
+            </span>
+          </div>
+          <div class="file-diff">
+            <div class="code-wrapper">
+              <table class="diff-table">
+                <tbody class="diff-tbody">
+                  <tr>
+                    <td class="code-linenumber info"></td>
+                    <td class="info">
+                      <div class="code-line">@@ -43,7 +43,7 @@ class DisplayState extends State<DisplayPage> {</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">43</div>
+                      <div class="line-num2">43</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">              children: <Widget>[</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">44</div>
+                      <div class="line-num2">44</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                TextButton(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">45</div>
+                      <div class="line-num2">45</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                  child: const Text("List"),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber del change">
+                      <div class="line-num1">46</div>
+                      <div class="line-num2"></div>
+                    </td>
+                    <td class="del change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">-</span>
+                        <span class="code-line-ctn">                  onPressed: null,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">46</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                  onPressed: _to_list_state,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">47</div>
+                      <div class="line-num2">47</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                ),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">48</div>
+                      <div class="line-num2">48</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                const SizedBox(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">49</div>
+                      <div class="line-num2">49</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                  width: 1,</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">...</div>
+                      <div class="line-num2">...</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">...</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">55</div>
+                      <div class="line-num2">55</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                TextButton(</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">56</div>
+                      <div class="line-num2">56</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                  child: const Text("Grid"),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber del change">
+                      <div class="line-num1">57</div>
+                      <div class="line-num2"></div>
+                    </td>
+                    <td class="del change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">-</span>
+                        <span class="code-line-ctn">                  onPressed: null, </span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber ins change">
+                      <div class="line-num1"></div>
+                      <div class="line-num2">57</div>
+                    </td>
+                    <td class="ins change">
+                      <div class="code-line">
+                        <span class="code-line-prefix">+</span>
+                        <span class="code-line-ctn">                  onPressed: _to_grid_state, </span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">58</div>
+                      <div class="line-num2">58</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">                ),</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">59</div>
+                      <div class="line-num2">59</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">              ],</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="code-linenumber cntx">
+                      <div class="line-num1">60</div>
+                      <div class="line-num2">60</div>
+                    </td>
+                    <td class="cntx">
+                      <div class="code-line">
+                        <span class="code-line-prefix">&nbsp;</span>
+                        <span class="code-line-ctn">            ),</span>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

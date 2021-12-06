@@ -97,7 +97,243 @@ class CounterState extends State<CounterPage> {
 			<p>
 				为页面添加一个显示数字的文本框，修改 CounterState 类中的 build 方法：
 			</p>
-      <img class="developer-image" src="assets\number_show.png">
+      <div class="file-wrapper">
+        <div class="file-header">
+          <span class="file-name-warpper">
+            <span class="file-name">counter/lib/main.dart</span>
+          </span>
+        </div>
+        <div class="file-diff">
+          <div class="code-wrapper">
+            <table class="diff-table">
+              <tbody class="diff-tbody">
+                <tr>
+                  <td class="code-linenumber info"></td>
+                  <td class="info">
+                    <div class="code-line">@@ -24,6 +24,18 @@ class CounterState extends State<CounterPage> {</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">24</div>
+                    <div class="line-num2">24</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">      appBar: AppBar(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">25</div>
+                    <div class="line-num2">25</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">        title: Text("Counter"),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">26</div>
+                    <div class="line-num2">26</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">      ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">27</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">      body: Center(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">28</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">        child: Column(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">29</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">          children: <Widget>[</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">30</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">            Container(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">31</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">              child: Text(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">32</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                "0",</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">33</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                style: Theme.of(context).textTheme.headline1,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">34</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">              ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">35</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">            )</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">36</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">          ], </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">37</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">        ), </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">38</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">      )</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">27</div>
+                    <div class="line-num2">39</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">    );</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">28</div>
+                    <div class="line-num2">40</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">  }</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">29</div>
+                    <div class="line-num2">41</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">}</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
 		</div>
 
 		<div id="button">
@@ -105,7 +341,339 @@ class CounterState extends State<CounterPage> {
 			<p>
 				在文本框下方添加水平对齐并均匀分布的三个按钮，分别显示 “+1”，“Zero”，“-1”，修改 CounterState 类中的 build 方法：
 			</p>
-      <img class="developer-image" src="assets\button_show.png">
+      <div class="file-wrapper">
+        <div class="file-header">
+          <span class="file-name-warpper">
+            <span class="file-name">counter/lib/main.dart</span>
+          </span>
+        </div>
+        <div class="file-diff">
+          <div class="code-wrapper">
+            <table class="diff-table">
+              <tbody class="diff-tbody">
+                <tr>
+                  <td class="code-linenumber info"></td>
+                  <td class="info">
+                    <div class="code-line">@@ -32,6 +32,26 @@ class CounterState extends State<CounterPage> {</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">32</div>
+                    <div class="line-num2">32</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                "0",</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">33</div>
+                    <div class="line-num2">33</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                style: Theme.of(context).textTheme.headline1,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">34</div>
+                    <div class="line-num2">34</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">              ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">35</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">            ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">36</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">            Row(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">37</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">              children: <Widget>[</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">38</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                Spacer(),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">39</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                ElevatedButton(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">40</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                  child: Text("+1"),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">41</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                  onPressed: null,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">42</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">43</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                Spacer(),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">44</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                ElevatedButton(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">45</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                  child: Text("Zero"),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">46</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                  onPressed: null,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">47</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">48</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                Spacer(),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">49</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                ElevatedButton(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">50</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                  child: Text("-1"),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">51</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                  onPressed: null,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">52</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">53</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                Spacer()</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">54</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">              ],</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">35</div>
+                    <div class="line-num2">55</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">            )</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">36</div>
+                    <div class="line-num2">56</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">          ], </span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">37</div>
+                    <div class="line-num2">57</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">        ), </span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
 		</div>
     
     <div id="center">
@@ -113,7 +681,111 @@ class CounterState extends State<CounterPage> {
 			<p>
 				调整页面布局，使文本框居中显示，修改 CounterState 类中的 build 方法：
 			</p>
-      <img class="developer-image" src="assets\layout_center.png">
+      <div class="file-wrapper">
+        <div class="file-header">
+          <span class="file-name-warpper">
+            <span class="file-name">counter/lib/main.dart</span>
+          </span>
+        </div>
+        <div class="file-diff">
+          <div class="code-wrapper">
+            <table class="diff-table">
+              <tbody class="diff-tbody">
+                <tr>
+                  <td class="code-linenumber info"></td>
+                  <td class="info">
+                    <div class="code-line">@@ -26,6 +26,7 @@ class CounterState extends State<CounterPage> {</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">26</div>
+                    <div class="line-num2">26</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">      ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">27</div>
+                    <div class="line-num2">27</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">      body: Center(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">28</div>
+                    <div class="line-num2">28</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">        child: Column(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">29</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">          mainAxisAlignment: MainAxisAlignment.center,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">29</div>
+                    <div class="line-num2">30</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">          children: <Widget>[</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">30</div>
+                    <div class="line-num2">31</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">            Container(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">31</div>
+                    <div class="line-num2">32</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">              child: Text(</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
 		</div>
 
 	</section>
@@ -136,7 +808,123 @@ class CounterState extends State<CounterPage> {
       <p>
         将变量 _count 关联到显示的数字：
       </p>
-      <img class="developer-image" src="assets\number_link.png">
+      <div class="file-wrapper">
+        <div class="file-header">
+          <span class="file-name-warpper">
+            <span class="file-name">counter/lib/main.dart</span>
+          </span>
+        </div>
+        <div class="file-diff">
+          <div class="code-wrapper">
+            <table class="diff-table">
+              <tbody class="diff-tbody">
+                <tr>
+                  <td class="code-linenumber info"></td>
+                  <td class="info">
+                    <div class="code-line">@@ -30,7 +32,7 @@ class CounterState extends State<CounterPage> {</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">30</div>
+                    <div class="line-num2">32</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">          children: <Widget>[</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">31</div>
+                    <div class="line-num2">33</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">            Container(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">32</div>
+                    <div class="line-num2">34</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">              child: Text(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber del change">
+                    <div class="line-num1">33</div>
+                    <div class="line-num2"></div>
+                  </td>
+                  <td class="del change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">-</span>
+                      <span class="code-line-ctn">                "0",</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">35</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                "$_count",</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">34</div>
+                    <div class="line-num2">36</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                style: Theme.of(context).textTheme.headline1,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">35</div>
+                    <div class="line-num2">37</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">              ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">36</div>
+                    <div class="line-num2">38</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">            ),</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
       <p>
         在 CounterState 类中构造函数 _countplus ：
       </p>
@@ -150,7 +938,111 @@ class CounterState extends State<CounterPage> {
       <p>
         将函数 _countplus 对应到 "+1" 按钮，修改 CounterState 类中的 build 方法：
       </p>
-      <img class="developer-image" src="assets\action_plus.png">
+      <div class="file-wrapper">
+        <div class="file-header">
+          <span class="file-name-warpper">
+            <span class="file-name">counter/lib/main.dart</span>
+          </span>
+        </div>
+        <div class="file-diff">
+          <div class="code-wrapper">
+            <table class="diff-table">
+              <tbody class="diff-tbody">
+                <tr>
+                  <td class="code-linenumber info"></td>
+                  <td class="info">
+                    <div class="code-line">@@ -39,17 +41,17 @@ class CounterState extends State<CounterPage> {</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">39</div>
+                    <div class="line-num2">41</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                Spacer(),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">40</div>
+                    <div class="line-num2">42</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                ElevatedButton(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">41</div>
+                    <div class="line-num2">43</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                  child: Text("+1"),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber del change">
+                    <div class="line-num1">42</div>
+                    <div class="line-num2"></div>
+                  </td>
+                  <td class="del change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">-</span>
+                      <span class="code-line-ctn">                  onPressed: null,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">44</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                  onPressed: _countplus,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">43</div>
+                    <div class="line-num2">45</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">44</div>
+                    <div class="line-num2">46</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                Spacer(),</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
     
     <div id="minus">
@@ -168,7 +1060,111 @@ class CounterState extends State<CounterPage> {
       <p>
         将函数 _countminus 对应到 "-1" 按钮，修改 CounterState 类中的 build 方法：
       </p>
-      <img class="developer-image" src="assets\action_minus.png">
+      <div class="file-wrapper">
+        <div class="file-header">
+          <span class="file-name-warpper">
+            <span class="file-name">counter/lib/main.dart</span>
+          </span>
+        </div>
+        <div class="file-diff">
+          <div class="code-wrapper">
+            <table class="diff-table">
+              <tbody class="diff-tbody">
+                <tr>
+                  <td class="code-linenumber info"></td>
+                  <td class="info">
+                    <div class="code-line">@@ -39,17 +41,17 @@ class CounterState extends State<CounterPage> {</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">49</div>
+                    <div class="line-num2">51</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                Spacer(),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">50</div>
+                    <div class="line-num2">52</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                ElevatedButton(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">51</div>
+                    <div class="line-num2">53</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                  child: Text("-1"),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber del change">
+                    <div class="line-num1">52</div>
+                    <div class="line-num2"></div>
+                  </td>
+                  <td class="del change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">-</span>
+                      <span class="code-line-ctn">                  onPressed: null,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">54</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                  onPressed: _countminus,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">53</div>
+                    <div class="line-num2">55</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">54</div>
+                    <div class="line-num2">56</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                Spacer(),</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
   
     <div id="zero">
@@ -186,7 +1182,111 @@ class CounterState extends State<CounterPage> {
       <p>
         将函数 _countzero 对应到 "Zero" 按钮，修改 CounterState 类中的 build 方法：
       </p>
-      <img class="developer-image" src="assets\action_zero.png">
+      <div class="file-wrapper">
+        <div class="file-header">
+          <span class="file-name-warpper">
+            <span class="file-name">counter/lib/main.dart</span>
+          </span>
+        </div>
+        <div class="file-diff">
+          <div class="code-wrapper">
+            <table class="diff-table">
+              <tbody class="diff-tbody">
+                <tr>
+                  <td class="code-linenumber info"></td>
+                  <td class="info">
+                    <div class="code-line">@@ -39,17 +41,17 @@ class CounterState extends State<CounterPage> {</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">44</div>
+                    <div class="line-num2">46</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                Spacer(),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">45</div>
+                    <div class="line-num2">47</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                ElevatedButton(</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">46</div>
+                    <div class="line-num2">48</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                  child: Text("Zero"),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber del change">
+                    <div class="line-num1">47</div>
+                    <div class="line-num2"></div>
+                  </td>
+                  <td class="del change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">-</span>
+                      <span class="code-line-ctn">                  onPressed: null,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber ins change">
+                    <div class="line-num1"></div>
+                    <div class="line-num2">49</div>
+                  </td>
+                  <td class="ins change">
+                    <div class="code-line">
+                      <span class="code-line-prefix">+</span>
+                      <span class="code-line-ctn">                  onPressed: _countzero,</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">48</div>
+                    <div class="line-num2">50</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                ),</span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="code-linenumber cntx">
+                    <div class="line-num1">49</div>
+                    <div class="line-num2">51</div>
+                  </td>
+                  <td class="cntx">
+                    <div class="code-line">
+                      <span class="code-line-prefix">&nbsp;</span>
+                      <span class="code-line-ctn">                Spacer(),</span>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
   </div>
   
   <p>

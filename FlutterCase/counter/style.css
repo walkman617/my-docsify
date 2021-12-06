@@ -87,3 +87,147 @@ body {
     font-size: 14px;
   }
 }
+
+div {
+  display: block;
+}
+
+.file-wrapper {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 1em;
+}
+
+.file-header {
+  padding: 5px 10px;
+  border-bottom: 1px solid #d8d8d8;
+  background-color: #f7f7f7;
+}
+
+.file-name-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+}
+
+.file-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  line-height: 21px;
+}
+
+.file-diff {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.diff-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Menlo, Consolas, monospace;
+  font-size: 13px;
+}
+
+.diff-tbody>tr>td {
+  height: 20px;
+  line-height: 20px;
+}
+
+.info {
+  background-color: #f8fafd;
+  color: rgba(0,0,0,.3);
+  border-color: #d5e4f2;
+}
+
+.code-linenumber {
+  box-sizing: border-box;
+  position: absolute;
+  width: 86px;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* background-color: #fff; */
+  /* color: rgba(0,0,0,.3); */
+  text-align: right;
+  border: solid #eee;
+  border-width: 0 1px 0 1px;
+  /* cursor: pointer; */
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.code-line {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0 10px;
+  margin-left: 80px;
+}
+
+.line-num1 {
+  box-sizing: border-box;
+  float: left;
+  width: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.line-num2 {
+  box-sizing: border-box;
+  float: right;
+  width: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.code-line-prefix {
+  display: inline;
+  background: 0 0;
+  padding: 0;
+  word-wrap: normal;
+  white-space: pre;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.code-line-ctn {
+  display: inline;
+  background: 0 0;
+  padding: 0;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+.file-diff .del.change {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.file-diff .ins.change {
+  background-color: rgba(0, 128, 0, 0.3);
+}
+
+.del {
+  background-color: #fee8e9;
+  border-color: #e9aeae;
+}
+
+.ins {
+  background-color: #dfd;
+  border-color: #b4e2b4;
+}
