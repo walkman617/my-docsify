@@ -1,4 +1,4 @@
-# Flutter
+# 内容介绍
 
 ![logo](flutter-lockup.png)
 
@@ -20,7 +20,7 @@
 - [Contents](https://f.nkugame.com/#/practice)
 - [Slides](https://github.com/walkman617/Flutter2/tree/main/Practice)
 - [SourceCode](https://github.com/walkman617/Flutter2/tree/main/SourceCode)
-- [Showcase](https://f.nkugame.com/#/showcase)
+- > [Showcase](https://f.nkugame.com/#/showcase)
 
 # 案例学习
 - [Codelab1: Counter](https://f.nkugame.com/FlutterCase/counter/)

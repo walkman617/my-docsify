@@ -2,10 +2,10 @@
 
 ![logo](flutter.png)
 
-# 基于Flutter的跨平台应用开发技术与实战
+# 《智能移动开发》
 
-> 2021年Google谷歌中国教育合作培训项目
+> 基于Flutter的跨平台应用开发
 
 
 [资料下载](https://github.com/walkman617/Flutter2)
-[进入课程](#Flutter)
+[进入课程](#内容介绍)
