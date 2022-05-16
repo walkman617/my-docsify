@@ -6,6 +6,5 @@
 
 > 基于Flutter的跨平台应用开发
 
-
-[资料下载](https://github.com/walkman617/Flutter2)
 [进入课程](#内容介绍)
+[资料下载](https://github.com/walkman617/Flutter2)
