@@ -1,11 +1,11 @@
 <!-- _coverpage.md -->
 
-![logo](flutter.png)
+![logo](ds.png)
 
-# 基于Flutter的跨平台应用开发技术与实践
+# 《数据科学》
 
-> 2021年Google谷歌中国教育合作培训类项目资助计划
+> 2025年秋季学期
 
-[内容介绍](#内容介绍)
-[课件下载](https://github.com/walkman617/Flutter2)
-[上机实践](https://f.nkugame.com/#/practice)
+[课程介绍](#课程介绍)
+[课件下载](https://docs.qq.com/s/u_BsIYlP-jh4ptyuXVRFta)
+[作业与要求](https://f.nkugame.com/#/practice)
