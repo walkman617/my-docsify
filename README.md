@@ -11,6 +11,11 @@
 # 课件
 * 课件：[下载](https://docs.qq.com/s/u_BsIYlP-jh4ptyuXVRFta)
 
+# 案例
+* Application Case 1.1：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1.1)
+* Application Case 1.9：[Robots Took the Job of Camel-Racing Jockeys for Societal Benefits](https://f.nkugame.com/#/ApplicationCase/as1.9)
+* Application Case 1.10：[Amazon Go Is Open for Business](https://f.nkugame.com/#/ApplicationCase/as1.10)
+
 # 大纲
 ![课程大纲](outline.jpg)
 
