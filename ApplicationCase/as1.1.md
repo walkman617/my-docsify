@@ -1,10 +1,8 @@
 ---
-sidebar_position: 1
+Application Case 1.1 
 ---
 
-# Application Case 1.1 
-
-## Making Elevators Go Faster!
+# Making Elevators Go Faster!
 
 This story has been reported in numerous places and has almost become a classic example to explain the need for problem identification. 
 
@@ -18,6 +16,6 @@ By reducing the perceived waiting time, the problem went away. Baker and Cameron
 
 If the real problem is identified as perceived waiting time, it can make a big difference in the proposed solutions and their costs. For example, full-length mirrors probably cost a whole lot less than adding an elevator!
 
-## Questions
+# Questions
 1. Why this is an example relevant to decision making?
 2. Relate this situation to the intelligence phase of decision making.

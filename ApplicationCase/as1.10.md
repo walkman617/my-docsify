@@ -1,17 +1,16 @@
 ---
-sidebar_position: 3
+Application Case 1.10
 ---
 
-# Application Case 1.10
 
-## Amazon Go Is Open for Business
+# Amazon Go Is Open for Business
 In early 2018, ***Amazon.com*** opened its first fully automated convenience store in downtown Seattle. The company had had success with this type of store during 2017, experimenting with only the company’s employees.
 
 Shoppers enter the store, pick up products, and go home. Their accounts are charged later on. Sounds great! No more waiting in line for the packing of your goods and paying for them – no cashiers, no hassle.
 
 In some sense, shoppers are going through a process similar to what they do online—find desired products/services, buy them, and wait for the monthly electronic charge.
 
-### The Shopping Process
+## The Shopping Process
 To participate, you need a special free app on your smartphone. You need to connect it to your regular ***Amazon.com*** account. Here is what you do next:
 1. Open your app.
 2. Wave your smartphone at a gate to the store. It
@@ -24,10 +23,10 @@ what products you took, and your shopping trip is finished. The system will tota
 
 Note: Today, only few people work in the store! Employees stock shelves and assist you otherwise. The company plans to open several additional stores in 2018.
 
-### The Technology Used
+## The Technology Used
 Amazon disclosed some of the technologies used. These are deep learning algorithms, computer vision, and sensor fusion. Other technologies were not disclosed. See the video: ***[Amazon Go](https://www.youtube.com/watch?v=NrmMk1Myrxc)*** (1:50 min).
 
-## Questions for Case 1.9
+# Questions for Case 1.9
 1. Watch the video. What did you like in it, and what did you dislike?
 2. Compare the process described here to a self-check available today in many supermarkets and “big box” stores (Home Depot, etc.).
 3. The store was opened in downtown Seattle. Why was the downtown location selected?
