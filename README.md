@@ -3,9 +3,9 @@
 **DATA SCIENCE** combines the scientific method, math and statistics, specialized programming, advanced analytics, AI, and even storytelling to uncover and explain the business insights buried in data.
 
 # 教材
-* 教材名称：`Analytics, Data Science, & Artificial Intelligence: Systems for Decision Support`, 11th Edition
-* 出版社链接：[Pearson](https://www.pearson.com/us/higher-education/program/Sharda-Analytics-Data-Science-Artificial-Intelligence-Systems-for-Decision-Support-11th-Edition/PGM2067063.html)
-* 电子书下载：[腾讯微云](https://share.weiyun.com/qMHLbY3P)
+* 教材名称：`Business Intelligence, Analytics, Data Science, And AI`, 5th Edition
+* 出版社链接：[Pearson](https://www.pearson.com/en-us/subject-catalog/p/business-intelligence-analytics-data-science-and-ai/P200000009781?view=educator)
+* 电子书：[Business Intelligence, Analytics, Data Science, And AI](https://docs.qq.com/pdf/DYnBabkRYaW9uV2VS)
 
 
 # 课件
