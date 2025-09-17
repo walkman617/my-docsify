@@ -9,7 +9,7 @@
 
 
 # 课件
-* 课件：[下载](https://docs.qq.com/s/u_BsIYlP-jh4ptyuXVRFta)
+* Chapter 1：[An Overview of Business Intelligence, Analytics, and Data Science](https://docs.qq.com/slide/DYmRYWXNzeEd0Zkpi)
 
 # 案例
 * Application Case 1.1：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1.1)
