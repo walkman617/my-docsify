@@ -13,9 +13,9 @@
 * Chapter 2：[Artificial Intelligence, Robotics, and Smart Systems](https://docs.qq.com/slide/DYmVjZ0NEakhsd3d0)
 
 # 案例
-* Application Case 1 ：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1)
-* Application Case 2：[Robots Took the Job of Camel-Racing Jockeys for Societal Benefits](https://f.nkugame.com/#/ApplicationCase/as2)
-* Application Case 3：[Amazon Go Is Open for Business](https://f.nkugame.com/#/ApplicationCase/as3)
+* Application Case：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1)
+* Application Case：[Robots Took the Job of Camel-Racing Jockeys for Societal Benefits](https://f.nkugame.com/#/ApplicationCase/as2)
+* Application Case：[Amazon Go Is Open for Business](https://f.nkugame.com/#/ApplicationCase/as3)
 
 # 大纲
 ![课程大纲](outline.jpg)
