@@ -10,11 +10,12 @@
 
 # 课件
 * Chapter 1：[An Overview of Business Intelligence, Analytics, and Data Science](https://docs.qq.com/slide/DYmRYWXNzeEd0Zkpi)
+* Chapter 2：[Artificial Intelligence, Robotics, and Smart Systems](https://docs.qq.com/slide/DYmVjZ0NEakhsd3d0)
 
 # 案例
-* Application Case 1.1：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1.1)
-* Application Case 1.9：[Robots Took the Job of Camel-Racing Jockeys for Societal Benefits](https://f.nkugame.com/#/ApplicationCase/as1.9)
-* Application Case 1.10：[Amazon Go Is Open for Business](https://f.nkugame.com/#/ApplicationCase/as1.10)
+* Application Case 1 ：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1)
+* Application Case 2：[Robots Took the Job of Camel-Racing Jockeys for Societal Benefits](https://f.nkugame.com/#/ApplicationCase/as2)
+* Application Case 3：[Amazon Go Is Open for Business](https://f.nkugame.com/#/ApplicationCase/as3)
 
 # 大纲
 ![课程大纲](outline.jpg)

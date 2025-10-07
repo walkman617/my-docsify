@@ -1,5 +1,5 @@
 ---
-Application Case 1.10
+Application Case 3
 ---
 
 
@@ -26,7 +26,7 @@ Note: Today, only few people work in the store! Employees stock shelves and assi
 ## The Technology Used
 Amazon disclosed some of the technologies used. These are deep learning algorithms, computer vision, and sensor fusion. Other technologies were not disclosed. See the video: ***[Amazon Go](https://www.youtube.com/watch?v=NrmMk1Myrxc)*** (1:50 min).
 
-# Questions for Case 1.9
+# Questions for the Case
 1. Watch the video. What did you like in it, and what did you dislike?
 2. Compare the process described here to a self-check available today in many supermarkets and “big box” stores (Home Depot, etc.).
 3. The store was opened in downtown Seattle. Why was the downtown location selected?

@@ -1,5 +1,5 @@
 ---
-ANALYTICS IN ACTION 1.1 
+Application Case 1
 ---
 
 # Making Elevators Go Faster!
