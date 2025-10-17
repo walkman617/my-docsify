@@ -11,6 +11,7 @@
 # 课件
 * Chapter 1：[An Overview of Business Intelligence, Analytics, and Data Science](https://docs.qq.com/slide/DYmRYWXNzeEd0Zkpi)
 * Chapter 2：[Artificial Intelligence, Robotics, and Smart Systems](https://docs.qq.com/slide/DYmVjZ0NEakhsd3d0)
+* Chapter 3：[Descriptive Analytics I: coloNature of Data, Big Data and Statistical Modeling](https://docs.qq.com/slide/DYml3YUFOV1NIYmhF)
 
 # 案例
 * Application Case：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1)
