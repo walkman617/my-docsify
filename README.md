@@ -13,6 +13,7 @@
 * Chapter 2：[Artificial Intelligence, Robotics, and Smart Systems](https://docs.qq.com/slide/DYmVjZ0NEakhsd3d0)
 * Chapter 3：[Descriptive Analytics I: Nature of Data, Big Data and Statistical Modeling](https://docs.qq.com/slide/DYml3YUFOV1NIYmhF)
 * Chapter 4：[Descriptive Analytics II: Business Intelligence, Data Warehousing, and Visualization](https://docs.qq.com/slide/DYkpOcUdRQ0RtcW1P)
+* Chapter 5：[Predictive Analytics I: Data Mining Process, Methods, and Algorithms](https://docs.qq.com/slide/DYmFMYm5tck52cEJo)
 
 # 案例
 * Application Case：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1)
