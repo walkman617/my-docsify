@@ -8,4 +8,4 @@
 3. 实践报告：[格式要求](https://docs.qq.com/doc/DYkZ2ZGJkRFdTTkNQ)。
 
 # 提交实践报告（doc或pdf格式）
-- 提交报告 [在线表格](https://docs.qq.com/form/page/DYmdXcHRzZ1V6WnJ6) 
+- 提交报告：[在线表格](https://docs.qq.com/form/page/DYmdXcHRzZ1V6WnJ6) 
