@@ -1,11 +1,17 @@
 ---
-数据分析与可视化：城市租房数据
+问题分析：投资组合
 ---
 
-# 任务描述
-1. 学习案例： [DS-北京租房数据分析](https://docs.qq.com/pdf/DYlpkV1hZQ3NxTGpV) 的方法与步骤；
-2. 作业实践：选择国内任一其他城市（非北京），从互联网爬取租房数据并进行可视化分析；
-3. 实践报告：[格式要求](https://docs.qq.com/doc/DYkZ2ZGJkRFdTTkNQ)。
+# 场景描述
+![Problem1-1](./img/Problem1-1.png) 
+![Problem1-2](./img/Problem1-2.png) 
 
-# 提交实践报告（doc或pdf格式）
-- 提交报告：[在线表格](https://docs.qq.com/form/page/DYmdXcHRzZ1V6WnJ6) 
+# 思考问题
+1.	股票的价格随着时间波动，方差和组合方差在现实中代表什么？
+2.	上面的例子能给我们什么样的决策建议？你觉得生活中还有哪些场景可以应用相同的决策？
+3.	如果上例中每只股票的收益率和方差各不相同，你觉得如何制定投资决策呢？
+
+# 提交答案
+1. 填写 [在线表格](https://docs.qq.com/form/page/DYk5WZm1yREttTWRU)
+2. 或扫码
+![Problem1-form](./img/Problem1-form.png) 
