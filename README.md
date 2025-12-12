@@ -14,6 +14,7 @@
 * Chapter 3：[Descriptive Analytics I: Nature of Data, Big Data and Statistical Modeling](https://docs.qq.com/slide/DYml3YUFOV1NIYmhF)
 * Chapter 4：[Descriptive Analytics II: Business Intelligence, Data Warehousing, and Visualization](https://docs.qq.com/slide/DYkpOcUdRQ0RtcW1P)
 * Chapter 5：[Predictive Analytics I: Data Mining Process, Methods, and Algorithms](https://docs.qq.com/slide/DYmFMYm5tck52cEJo)
+* Chapter 6：[Predictive Analytics II: Text, Web, and Social Media Analytics](https://docs.qq.com/slide/DYk53TENVVmZIRGxo)
 
 # 案例
 * Application Case：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1)
@@ -27,6 +28,7 @@
 
 
 # 课后作业
+- **作业4（2025年12月19日之前）**：[课程实践：华为云空间](https://f.nkugame.com/#/Practices/Problem4) 。
 - **作业3（2025年11月21日之前）**：[数据分析与可视化：城市租房数据](https://f.nkugame.com/#/Practices/Problem3) 。
 - **作业2（2025年10月24日之前）**：[问题分析：投资组合](https://f.nkugame.com/#/Practices/Problem2) 。
 - **作业1（2025年10月12日之前）**：组队报名参加[2025动感地带AI+高校创智计划](https://www.migufun.com/5gcampus/?pageId=102003) 大赛；提交参赛作品到竞赛平台后，同时将“作品创意文件”和“作品演示视频”提交到表单[《数据科学》作业 1](https://docs.qq.com/form/page/DYmJxbUZUV0ZiWktY)。
