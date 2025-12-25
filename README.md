@@ -15,6 +15,7 @@
 * Chapter 4：[Descriptive Analytics II: Business Intelligence, Data Warehousing, and Visualization](https://docs.qq.com/slide/DYkpOcUdRQ0RtcW1P)
 * Chapter 5：[Predictive Analytics I: Data Mining Process, Methods, and Algorithms](https://docs.qq.com/slide/DYmFMYm5tck52cEJo)
 * Chapter 6：[Predictive Analytics II: Text, Web, and Social Media Analytics](https://docs.qq.com/slide/DYk53TENVVmZIRGxo)
+* Chapter 7：[Deep Learning and Cognitive Computing](https://docs.qq.com/slide/DYk1ubmRnekJCa1hS)
 
 # 案例
 * Application Case：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1)
@@ -28,6 +29,7 @@
 
 
 # 课后作业
+- **作业6（2026年1月4日之前）**：[华为云空间：Docker安装Flink实现数据实时统计](https://f.nkugame.com/#/Practices/Problem6) 。
 - **作业5（2025年12月26日之前）**：[华为云空间：基于Apache Spark实现商品推荐算法](https://f.nkugame.com/#/Practices/Problem5) 。
 - **作业4（2025年12月19日之前）**：[华为云空间：基于 PyTorch 搭建多层感知机模型实现葡萄酒数据集分类](https://f.nkugame.com/#/Practices/Problem4) 。
 - **作业3（2025年11月21日之前）**：[数据分析与可视化：城市租房数据](https://f.nkugame.com/#/Practices/Problem3) 。
