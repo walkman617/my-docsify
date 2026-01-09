@@ -23,10 +23,11 @@
 * Application Case：[Amazon Go Is Open for Business](https://f.nkugame.com/#/ApplicationCase/as3)
 * Application Case：[Golden Ratio](https://youtu.be/UY2EFPSQYgE)
 
-
 # 大纲
 ![课程大纲](outline.jpg)
 
+# 期末报告
+**2026年1月23日之前提交：** [文本情感分析](https://f.nkugame.com/#/Practices/FinalReport) 
 
 # 课后作业
 - **作业6（2026年1月4日之前）**：[华为云空间：Docker安装Flink实现数据实时统计](https://f.nkugame.com/#/Practices/Problem6) 。
