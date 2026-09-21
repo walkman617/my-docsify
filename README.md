@@ -7,7 +7,7 @@
 
 # 课程报告
 
-**参加赛事：** [2026动感地带AI+高校创智计划](https://ai.migudm.cn/interactive/match/home)。
+**参加赛事：** [2026动感地带AI+高校创智计划](https://ai.migudm.cn/interactive/match/home)，建议一人团队（One-Person Team, OPT）。
 
 **作品提交：** 待定。
 
