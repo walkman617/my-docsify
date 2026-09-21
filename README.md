@@ -1,6 +1,15 @@
 # 课程介绍
 
-**DATA SCIENCE** combines the scientific method, math and statistics, specialized programming, advanced analytics, AI, and even storytelling to uncover and explain the business insights buried in data.
+**数据科学：** 是一门综合学科，利用统计、计算机、领域知识，从数据里挖掘价值、发现规律、辅助决策。
+
+**成绩构成：** 平时成绩占60%，课程报告占40%。
+
+
+# 课程报告
+
+**参加赛事：** [2026动感地带AI+高校创智计划](https://ai.migudm.cn/interactive/match/home)，要求 “一人团队”（One-man team / Team of one，OPC）。
+
+**作品提交：** 待定。
 
 # 教材
 * 教材名称：`Business Intelligence, Analytics, Data Science, And AI`, 5th Edition
@@ -16,6 +25,13 @@
 * Chapter 5：[Predictive Analytics I: Data Mining Process, Methods, and Algorithms](https://docs.qq.com/slide/DYmFMYm5tck52cEJo)
 * Chapter 6：[Predictive Analytics II: Text, Web, and Social Media Analytics](https://docs.qq.com/slide/DYk53TENVVmZIRGxo)
 * Chapter 7：[Deep Learning and Cognitive Computing](https://docs.qq.com/slide/DYk1ubmRnekJCa1hS)
+
+# 案例
+* Application Case：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1)
+* Application Case：[Robots Took the Job of Camel-Racing Jockeys for Societal Benefits](https://f.nkugame.com/#/ApplicationCase/as2)
+* Application Case：[Amazon Go Is Open for Business](https://f.nkugame.com/#/ApplicationCase/as3)
+* Application Case：[Golden Ratio](https://youtu.be/UY2EFPSQYgE)
+
 
 # 大纲
 ![课程大纲](outline.jpg)
