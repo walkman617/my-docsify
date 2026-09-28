@@ -12,6 +12,6 @@
 3.	如果上例中每只股票的收益率和方差各不相同，你觉得如何制定投资决策呢？
 
 # 提交答案
-1. 填写 [在线表格](https://docs.qq.com/form/page/DYk5WZm1yREttTWRU)
+1. 填写 [在线表格](https://docs.qq.com/form/page/DYmRXdG92VXpqUVhQ)
 2. 或扫码
 ![Problem1-form](./img/Problem1-form.png) 
