@@ -27,6 +27,10 @@
 * Chapter 6：[Predictive Analytics II: Text, Web, and Social Media Analytics](https://docs.qq.com/slide/DYk53TENVVmZIRGxo)
 * Chapter 7：[Deep Learning and Cognitive Computing](https://docs.qq.com/slide/DYk1ubmRnekJCa1hS)
 
+# 课堂作业
+* 作业1：[投资组合](https://f.nkugame.com/#/Practices/Problem1)
+* 作业2：[数据集市](https://f.nkugame.com/#/Practices/Problem1)
+
 # 案例
 * Application Case：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1)
 * Application Case：[Robots Took the Job of Camel-Racing Jockeys for Societal Benefits](https://f.nkugame.com/#/ApplicationCase/as2)
