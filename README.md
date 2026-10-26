@@ -29,7 +29,7 @@
 
 # 课堂作业
 * 作业1：[投资组合](https://f.nkugame.com/#/Practices/Problem1)
-* 作业2：[数据集市](https://f.nkugame.com/#/Practices/Problem1)
+* 作业2：[数据集市](https://f.nkugame.com/#/Practices/Problem2)
 
 # 案例
 * Application Case：[Making Elevators Go Faster!](https://f.nkugame.com/#/ApplicationCase/as1)
